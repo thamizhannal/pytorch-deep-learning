@@ -1,0 +1,14 @@
+@'
+# PyTorch checkpoints and weights
+*.pt
+*.pth
+
+# Data directories
+data/
+
+# Python environment & Jupyter caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+'@ | Out-File -FilePath .gitignore -Encoding utf8
